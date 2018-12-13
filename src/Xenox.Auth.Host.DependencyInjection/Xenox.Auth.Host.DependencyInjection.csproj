@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.0.0" />
+    <PackageReference Include="Xenox.DependencyInjection.Configuration" Version="1.0.0" />
+    <PackageReference Include="Xenox.Encryption.DependencyInjection" Version="1.0.0" />
+    <PackageReference Include="Xenox.Encryption.SuperBasicEncryption" Version="1.0.2" />
+    <PackageReference Include="Xenox.Serialization.JsonNet.DependencyInjection" Version="1.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Xenox.Auth.AuthenticationProvider.ActiveDirectory\Xenox.Auth.AuthenticationProvider.ActiveDirectory.csproj" />
+    <ProjectReference Include="..\Xenox.Auth.AuthorizationProvider.TestAppService\Xenox.Auth.AuthorizationProvider.TestAppService.csproj" />
+    <ProjectReference Include="..\Xenox.Auth.TokenProvider.AesPlusHmac\Xenox.Auth.TokenProvider.AesPlusHmac.csproj" />
+    <ProjectReference Include="..\Xenox.Auth\Xenox.Auth.csproj" />
+  </ItemGroup>
+
+</Project>

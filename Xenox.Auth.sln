@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xenox.Auth.Host.HttpJsonRpc", "src\Xenox.Auth.Host.HttpJsonRpc\Xenox.Auth.Host.HttpJsonRpc.csproj", "{BB266DB4-CC06-4107-826E-3C0C6427D7E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xenox.Auth", "src\Xenox.Auth\Xenox.Auth.csproj", "{A8AE59E7-4409-42EB-BE9A-6410B00356C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xenox.Auth.Host.DependencyInjection", "src\Xenox.Auth.Host.DependencyInjection\Xenox.Auth.Host.DependencyInjection.csproj", "{C29439D0-8B39-4DAF-AC37-33201660714F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xenox.Auth.AuthenticationProvider.ActiveDirectory", "src\Xenox.Auth.AuthenticationProvider.ActiveDirectory\Xenox.Auth.AuthenticationProvider.ActiveDirectory.csproj", "{1261D216-CF24-463C-B4F0-E416C37F167F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xenox.Auth.Client.AuthorizationTokenClientProvider", "src\Xenox.Auth.Client.AuthorizationTokenClientProvider\Xenox.Auth.Client.AuthorizationTokenClientProvider.csproj", "{F4875846-3A9B-429E-9BD3-6D0998A618EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xenox.Auth.TokenProvider.AesPlusHmac", "src\Xenox.Auth.TokenProvider.AesPlusHmac\Xenox.Auth.TokenProvider.AesPlusHmac.csproj", "{007DF4A5-02BB-47C4-95E7-AB1AC8F77B63}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xenox.Auth.AuthorizationProvider.TestAppService", "src\Xenox.Auth.AuthorizationProvider.TestAppService\Xenox.Auth.AuthorizationProvider.TestAppService.csproj", "{B79DCF8A-192C-48C1-85DC-EC8F0EF1258A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xenox.Auth.Models", "src\Xenox.Auth.Models\Xenox.Auth.Models.csproj", "{17B6C6BB-60D4-4B44-85DF-8A366145EF07}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xenox.Auth.Client.DependencyInjection", "src\Xenox.Auth.Client.DependencyInjection\Xenox.Auth.Client.DependencyInjection.csproj", "{45AB64B6-1422-40E2-89AB-723F74572252}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB266DB4-CC06-4107-826E-3C0C6427D7E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB266DB4-CC06-4107-826E-3C0C6427D7E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB266DB4-CC06-4107-826E-3C0C6427D7E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB266DB4-CC06-4107-826E-3C0C6427D7E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8AE59E7-4409-42EB-BE9A-6410B00356C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8AE59E7-4409-42EB-BE9A-6410B00356C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8AE59E7-4409-42EB-BE9A-6410B00356C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8AE59E7-4409-42EB-BE9A-6410B00356C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C29439D0-8B39-4DAF-AC37-33201660714F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C29439D0-8B39-4DAF-AC37-33201660714F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C29439D0-8B39-4DAF-AC37-33201660714F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C29439D0-8B39-4DAF-AC37-33201660714F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1261D216-CF24-463C-B4F0-E416C37F167F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1261D216-CF24-463C-B4F0-E416C37F167F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1261D216-CF24-463C-B4F0-E416C37F167F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1261D216-CF24-463C-B4F0-E416C37F167F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4875846-3A9B-429E-9BD3-6D0998A618EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4875846-3A9B-429E-9BD3-6D0998A618EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4875846-3A9B-429E-9BD3-6D0998A618EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4875846-3A9B-429E-9BD3-6D0998A618EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{007DF4A5-02BB-47C4-95E7-AB1AC8F77B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{007DF4A5-02BB-47C4-95E7-AB1AC8F77B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{007DF4A5-02BB-47C4-95E7-AB1AC8F77B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{007DF4A5-02BB-47C4-95E7-AB1AC8F77B63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B79DCF8A-192C-48C1-85DC-EC8F0EF1258A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B79DCF8A-192C-48C1-85DC-EC8F0EF1258A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B79DCF8A-192C-48C1-85DC-EC8F0EF1258A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B79DCF8A-192C-48C1-85DC-EC8F0EF1258A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17B6C6BB-60D4-4B44-85DF-8A366145EF07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17B6C6BB-60D4-4B44-85DF-8A366145EF07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17B6C6BB-60D4-4B44-85DF-8A366145EF07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17B6C6BB-60D4-4B44-85DF-8A366145EF07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45AB64B6-1422-40E2-89AB-723F74572252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45AB64B6-1422-40E2-89AB-723F74572252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45AB64B6-1422-40E2-89AB-723F74572252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45AB64B6-1422-40E2-89AB-723F74572252}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A4DDEEE-5D20-4CD3-9EB5-19367D994973}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <Target Name="CopyNuGetPackage" AfterTargets="Pack">
+    <Exec Command="xcopy /Y $(TargetDir)..\*.nupkg %USERPROFILE%\.nuget.local" />
+  </Target>
+
+</Project>

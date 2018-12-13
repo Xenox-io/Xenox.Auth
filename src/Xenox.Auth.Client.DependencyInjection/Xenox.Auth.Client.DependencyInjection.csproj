@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <Target Name="CopyNuGetPackage" AfterTargets="Pack">
+    <Exec Command="xcopy /Y &quot;$(TargetDir)..\*.nupkg&quot; &quot;%USERPROFILE%\.nuget.local&quot;" />
+  </Target>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.0.0" />
+    <PackageReference Include="Xenox.Auth.Client.AuthorizationTokenClientProvider" Version="1.0.1" />
+  </ItemGroup>
+
+</Project>
