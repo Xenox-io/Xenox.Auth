@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xenox.Encryption" Version="1.0.0" />
+    <PackageReference Include="Xenox.Encryption" Version="1.0.1" />
     <PackageReference Include="Xenox.Serialization" Version="1.0.3" />
   </ItemGroup>
 
